@@ -5,21 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
 <div class="container">
 <div class="row">
     <div class="col-sm-12">
-        <h1> Welcome to the Wonderful World of Sports Hangman!</h1>
-        <h3 class="blanks" >_ _ _ _ _ _ _</h3>
+    <img src="assets/images/1200px-ESPN.png" alt="1200pxESPN" height="200" width="200">
+
+        <h1> Welcome to Sports Hangman!</h1>
+        <h2>Click any letter to begin.</h2>
+        <h3 id="blanks" ></h3>
+        <h4>Wrong Guesses:<span id ="wrongGuesses"></span></h4>
+        <h4>Guesses: <span id="guessLeft">9</span> </h5>
+        <h4>Wins: <span id="wins">0</span></h6>
+        <h4>Losses: <span id= "losses">0</span></h7>
     </div>
 </div>
-<div class="row">
+<!--<div class="row">
         <div class="col-sm-12">
             <h3 class="wrongGuesses" > Wrong Gueses:</h3>
         </div>
     </div>
-</div> 
+</div>--> 
 <script src="assets/javascript/game.js">
 
     
